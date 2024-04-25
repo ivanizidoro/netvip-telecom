@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-
+    
 
 `
 
@@ -27,6 +27,15 @@ export const Img = styled.img`
 
     height: 400px;
     cursor: pointer;
+
+
+    &:hover{
+        opacity: 0.8;
+    }
+
+    &:active{
+        opacity: 0.5;
+    }
    
 
 `
