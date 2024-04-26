@@ -11,6 +11,8 @@ export const Container = styled.div`
     height: 60px;
     padding: 30px ;
 
+    background: rgb(0, 163, 255);
+
 `
 
 export const ContainerItens = styled.div`
@@ -19,10 +21,15 @@ export const ContainerItens = styled.div`
 
 export const A = styled.a`
 
-    color: rgba(255,140,0);
+    color: white;
     font-weight: 400;
     padding: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
     
-
+    &:hover{
+        color: rgb(5,3,128);
+    }
 
 `

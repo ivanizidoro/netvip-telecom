@@ -18,7 +18,7 @@ export const H1 = styled.h1`
 
     text-align: center;
     padding: 30px;
-    color: blue;
+    color: rgb(0, 163, 255);
 
 
 `

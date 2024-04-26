@@ -15,7 +15,6 @@ function nav() {
         <A href="#">NOSSA LOCALIZAÇÃO</A>
         <A href="#">CONTATOS</A>
       </ContainerItens>
-        <A href="https://netvippe.sgp.net.br/accounts/central/login" target="_blank">CENTRAL DO ASSINANTE</A>
     </Container>
   )
 

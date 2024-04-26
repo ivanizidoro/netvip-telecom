@@ -13,7 +13,7 @@ return(
             <A>WHATSAPP: (81) 99756-8144</A>
             <A>INSTAGRAM</A>
         </ContainerItens>
-        <A>CENTRAL DO ASSINANTE</A>
+        <A href="https://netvippe.sgp.net.br/accounts/central/login" target="_blank">CENTRAL DO ASSINANTE</A>
     </Container>
 )
     
