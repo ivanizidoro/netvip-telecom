@@ -68,13 +68,8 @@ export const ContainerItens = styled.div`
 
 export const ContainerSobre = styled.div`
 
-    
+    padding-top: 80px;
 
-    video{
-        width: 100%;
-        padding-top: 80px;
-    }
-    
     h1{
         color: rgb(0, 163, 255);
         text-align: center;
@@ -83,6 +78,8 @@ export const ContainerSobre = styled.div`
 
     a{
         font-size: 30px;
+        display: flex;
+        justify-content: center;
         color: rgb(0, 163, 255);
     }
 
