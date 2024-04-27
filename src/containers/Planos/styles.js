@@ -76,32 +76,14 @@ export const ContainerSobre = styled.div`
     }
     
     h1{
-        color: #ffffff;
+        color: rgb(0, 163, 255);
         text-align: center;
         font-size: 90px;
-        position: absolute;
-        top: 2500px;
-        width: 100%;
-        height: 100%;
-
-        margin-top: 120px;
-        padding-top: 90px;
-
-
     }
 
     a{
         font-size: 30px;
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        top: 2800px;
-        width: 100%;
-        height: 100%;
-
-
-        padding-top: 70px;
-        color: #ffffff;
+        color: rgb(0, 163, 255);
     }
 
 `
