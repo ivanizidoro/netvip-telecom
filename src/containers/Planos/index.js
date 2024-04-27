@@ -1,7 +1,6 @@
 import React from "react";
 
 import { H1, Container, ContainerItens, ContainerSobre } from "./styles"
-import plano30 from "../../assets/30.png"
 import plano100 from "../../assets/100.png"
 import plano200 from "../../assets/200.png"
 import plano300 from "../../assets/300.png"
@@ -16,10 +15,6 @@ function planos() {
     <Container>
       <H1>NOSSOS PLANOS</H1>
       <ContainerItens>
-        <div>
-          <img src={plano30} />
-          <button>ASSINE JÁ</button>
-        </div>
         <div>
           <img src={plano100} />
           <button>ASSINE JÁ</button>
