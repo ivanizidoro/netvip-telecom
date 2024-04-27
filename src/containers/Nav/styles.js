@@ -7,8 +7,7 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     background: rgb(5,3,128);
-    height: 100px;
-
+    height: 100px;  
 `
 
 export const Image = styled.img`
@@ -17,7 +16,8 @@ export const Image = styled.img`
 
 `
 
-export const ContainerItens = styled.div``
+export const ContainerItens = styled.div`
+`
 
 export const A = styled.a`
 
