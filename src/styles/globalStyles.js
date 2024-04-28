@@ -6,7 +6,7 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0px;
         box-sizing: border-box;
-        font-family: "Bebas Neue", sans-serif;
+        font-family: "Poppins", sans-serif;
     }
 
 `

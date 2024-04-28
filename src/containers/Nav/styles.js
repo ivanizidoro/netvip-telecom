@@ -22,7 +22,8 @@ export const ContainerItens = styled.div`
 export const A = styled.a`
 
     color: #ffffff;
-    font-size: 28px;
+    font-size: 20px;
+    font-weight: 600;
     padding: 30px;
     text-decoration: none;
 

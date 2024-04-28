@@ -1,22 +1,34 @@
 import React from "react";
 
 import { Container, ContainerItens, A } from "./styles";
+import { IoLogoWhatsapp } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
+import { BsTelephoneForward } from "react-icons/bs";
+import { FaRegUser } from "react-icons/fa";
 
 
-function Topo(){
 
-return(
-    
-    <Container>
-        <ContainerItens>
-            <A>LIGUE E ASSINE: 0800 636 1102</A>
-            <A>WHATSAPP: (81) 99756-8144</A>
-            <A>INSTAGRAM</A>
-        </ContainerItens>
-        <A href="https://netvippe.sgp.net.br/accounts/central/login" target="_blank">CENTRAL DO ASSINANTE</A>
-    </Container>
-)
-    
+
+function Topo() {
+
+    return (
+
+        <Container>
+            <ContainerItens>
+                <BsTelephoneForward />
+                <A>LIGUE E ASSINE: 0800 636 1102</A>
+                <IoLogoWhatsapp />
+                <A href="https://api.whatsapp.com/send/?phone=5581994030800&text&type=phone_number&app_absent=0" target="_blank">WHATSAPP: (81) 99756-8144</A>
+                <FaInstagram />
+                <A href="https://www.instagram.com/netvipprovedor" target="_blank">INSTAGRAM</A>
+            </ContainerItens>
+            <div>
+                <FaRegUser />
+                <A href="https://netvippe.sgp.net.br/accounts/central/login" target="_blank">CENTRAL DO ASSINANTE</A>
+            </div>
+        </Container>
+    )
+
 }
 
 export default Topo
