@@ -16,9 +16,9 @@ function Topo() {
         <Container>
             <ContainerItens>
                 <BsTelephoneForward />
-                <A>LIGUE E ASSINE: 0800 636 1102</A>
+                <A>LIGUE E ASSINE: (81) 3299-7444</A>
                 <IoLogoWhatsapp />
-                <A href="https://api.whatsapp.com/send/?phone=5581994030800&text&type=phone_number&app_absent=0" target="_blank">WHATSAPP: (81) 99756-8144</A>
+                <A href="https://api.whatsapp.com/send/?phone=5581994030800&text&type=phone_number&app_absent=0" target="_blank">WHATSAPP: (81) 99403-0800 / (81) 99789-5571</A>
                 <FaInstagram />
                 <A href="https://www.instagram.com/netvipprovedor" target="_blank">INSTAGRAM</A>
             </ContainerItens>
