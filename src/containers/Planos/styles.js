@@ -151,3 +151,9 @@ export const Containerlocal = styled.div`
 
 
 `
+
+export const ContainerFooter = styled.div`
+
+    
+
+`
