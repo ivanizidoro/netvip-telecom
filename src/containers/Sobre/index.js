@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import Nav from "../../components/Nav";
 import Top from "../../components/Top";
 import Planos from "../../components/Planos";
@@ -7,6 +7,7 @@ import Local from "../../components/Local";
 import Footer from "../../components/Footer";
 import Slider from "../../components/Slider";
 import MenuMobile from "../../components/MenuMobile";
+
 
 import {
   Container,
@@ -19,21 +20,16 @@ function Home() {
 
   return (
     <>
-      <MenuMobile
-        menuIsVisible={menuIsVisible}
-        setMenuIsVisible={setMenuIsVisible}
-      />
-      <Container>
-        <Top />
-        <Nav
-          setMenuIsVisible={setMenuIsVisible}
-        />
-        <Slider />
-        <Planos />
-        <Sobre />
-        <Local />
-        <Footer />
-      </Container>
+    <MenuMobile
+      menuIsVisible={menuIsVisible}
+      setMenuIsVisible={setMenuIsVisible}
+    />
+    <Container>
+      <Top />
+      <Nav setMenuIsVisible={setMenuIsVisible}/>
+      <Sobre />
+      <Footer />
+    </Container>
     </>
   )
 

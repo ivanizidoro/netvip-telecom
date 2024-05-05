@@ -25,12 +25,7 @@ function Home() {
       />
       <Container>
         <Top />
-        <Nav
-          setMenuIsVisible={setMenuIsVisible}
-        />
-        <Slider />
-        <Planos />
-        <Sobre />
+        <Nav setMenuIsVisible={setMenuIsVisible} />
         <Local />
         <Footer />
       </Container>
