@@ -1,11 +1,8 @@
 import React, {useState} from "react";
 import Nav from "../../components/Nav";
 import Top from "../../components/Top";
-import Planos from "../../components/Planos";
 import Sobre from "../../components/Sobre";
-import Local from "../../components/Local";
 import Footer from "../../components/Footer";
-import Slider from "../../components/Slider";
 import MenuMobile from "../../components/MenuMobile";
 
 
