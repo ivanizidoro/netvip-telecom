@@ -30,6 +30,17 @@ export const ContainerWhats = styled.div`
     right:40px;
 
     cursor: pointer;
+
+    
+@media (max-width: 900px){
+
+    width: 60px;
+    height: 60px;
+
+    font-size: 40px;
+
+}
+
 }
 
 `
