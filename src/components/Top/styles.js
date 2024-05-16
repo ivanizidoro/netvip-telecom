@@ -21,6 +21,21 @@ export const ContainerTopo = styled.div`
             display: none;
         }
     }
+    
+    @media (max-width: 1300px){
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        a{
+            font-size: 14px;
+        }
+        
+        svg{
+            font-size: 20px;
+        }
+    }
 
 
 div{

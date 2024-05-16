@@ -29,6 +29,8 @@ export const ContainerNav = styled.div`
 
         &:hover{
         color: rgb(217,102,0);
+        
+        
     }
     }
 
